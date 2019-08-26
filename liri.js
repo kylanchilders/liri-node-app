@@ -37,7 +37,6 @@ function movieThis(){
     }
     axios.get(URL).then(
         function(response) {
-            console.log(URL)
             console.log("Title: " + response.data.Title);
             console.log("Year: " + response.data.Year);
             console.log("IMDB Rating: " + response.data.imdbRating);
